@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif
 }
 body{
   display: flex;
@@ -12,8 +12,9 @@ body{
   align-items: center;
   min-height: 100vh;
   background: #cfd1e1;
-  overflow: hidden;
+  overflow: hidden
 }
+
 .sbx{
   display: flex;
   justify-content: center;
@@ -89,7 +90,10 @@ body{
 .sdw:hover{
   pointer-events: none;
 }
-::selection{
-  text-shadow: none;
-  background: #a8cefc;
+ion-icon{
+  position: absolute;
+  right: 20px;
+  color: #555;
+  font-size: 1.5em;
+  cursor: pointer
 }
